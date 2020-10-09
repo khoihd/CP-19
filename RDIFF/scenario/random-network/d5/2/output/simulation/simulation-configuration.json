@@ -1,0 +1,4 @@
+{
+  "slowNetworkThreshold" : 0.8,
+  "slowServerThreshold" : 0.8
+}

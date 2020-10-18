@@ -1,0 +1,121 @@
+# CP Paper
+
+set ns [new Simulator]
+source tb_compact.tcl
+
+# Clients
+set clientPoolN [$ns node]
+tb-set-node-os $clientPoolN XEN46-64-STD
+set clientPoolG [$ns node]
+tb-set-node-os $clientPoolG XEN46-64-STD
+set clientPoolS [$ns node]
+tb-set-node-os $clientPoolS XEN46-64-STD
+
+# NCPs
+set nodeA [$ns node]
+tb-set-node-os $nodeA XEN46-64-STD
+tb-set-hardware $nodeA simple
+
+set nodeB [$ns node]
+tb-set-node-os $nodeB XEN46-64-STD
+tb-set-hardware $nodeB simple
+
+set nodeC [$ns node]
+tb-set-node-os $nodeC XEN46-64-STD
+tb-set-hardware $nodeC large
+
+set nodeD [$ns node]
+tb-set-node-os $nodeD XEN46-64-STD
+tb-set-hardware $nodeD simple
+
+set nodeE [$ns node]
+tb-set-node-os $nodeE XEN46-64-STD
+tb-set-hardware $nodeE simple
+
+set nodeF [$ns node]
+tb-set-node-os $nodeF XEN46-64-STD
+tb-set-hardware $nodeF simple
+
+set nodeG [$ns node]
+tb-set-node-os $nodeG XEN46-64-STD
+tb-set-hardware $nodeG simple
+
+set nodeH [$ns node]
+tb-set-node-os $nodeH XEN46-64-STD
+tb-set-hardware $nodeH simple
+
+set nodeI [$ns node]
+tb-set-node-os $nodeI XEN46-64-STD
+tb-set-hardware $nodeI simple
+
+set nodeJ [$ns node]
+tb-set-node-os $nodeJ XEN46-64-STD
+tb-set-hardware $nodeJ simple
+
+set nodeK [$ns node]
+tb-set-node-os $nodeK XEN46-64-STD
+tb-set-hardware $nodeK simple
+
+set nodeL [$ns node]
+tb-set-node-os $nodeL XEN46-64-STD
+tb-set-hardware $nodeL simple
+
+set nodeM [$ns node]
+tb-set-node-os $nodeM XEN46-64-STD
+tb-set-hardware $nodeM simple
+
+set nodeN [$ns node]
+tb-set-node-os $nodeN XEN46-64-STD
+tb-set-hardware $nodeN simple
+
+set nodeO [$ns node]
+tb-set-node-os $nodeO XEN46-64-STD
+tb-set-hardware $nodeO simple
+
+set nodeP [$ns node]
+tb-set-node-os $nodeP XEN46-64-STD
+tb-set-hardware $nodeP simple
+
+set nodeQ [$ns node]
+tb-set-node-os $nodeQ XEN46-64-STD
+tb-set-hardware $nodeQ simple
+
+set nodeR [$ns node]
+tb-set-node-os $nodeR XEN46-64-STD
+tb-set-hardware $nodeR simple
+
+set nodeS [$ns node]
+tb-set-node-os $nodeS XEN46-64-STD
+tb-set-hardware $nodeS simple
+
+set nodeT [$ns node]
+tb-set-node-os $nodeT XEN46-64-STD
+tb-set-hardware $nodeT simple
+
+# Links
+set linkEC [$ns duplex-link $nodeE $nodeC 100000.0kb 0.0ms DropTail]
+set linkGE [$ns duplex-link $nodeG $nodeE 100000.0kb 0.0ms DropTail]
+set linkHC [$ns duplex-link $nodeH $nodeC 100000.0kb 0.0ms DropTail]
+set linkIA [$ns duplex-link $nodeI $nodeA 100000.0kb 0.0ms DropTail]
+set linkIE [$ns duplex-link $nodeI $nodeE 100000.0kb 0.0ms DropTail]
+set linkIF [$ns duplex-link $nodeI $nodeF 100000.0kb 0.0ms DropTail]
+set linkJA [$ns duplex-link $nodeJ $nodeA 100000.0kb 0.0ms DropTail]
+set linkKB [$ns duplex-link $nodeK $nodeB 100000.0kb 0.0ms DropTail]
+set linkKF [$ns duplex-link $nodeK $nodeF 100000.0kb 0.0ms DropTail]
+set linkLD [$ns duplex-link $nodeL $nodeD 100000.0kb 0.0ms DropTail]
+set linkLI [$ns duplex-link $nodeL $nodeI 100000.0kb 0.0ms DropTail]
+set linkML [$ns duplex-link $nodeM $nodeL 100000.0kb 0.0ms DropTail]
+set linkNC [$ns duplex-link $nodeN $nodeC 100000.0kb 0.0ms DropTail]
+set linkOG [$ns duplex-link $nodeO $nodeG 100000.0kb 0.0ms DropTail]
+set linkPC [$ns duplex-link $nodeP $nodeC 100000.0kb 0.0ms DropTail]
+set linkQF [$ns duplex-link $nodeQ $nodeF 100000.0kb 0.0ms DropTail]
+set linkRD [$ns duplex-link $nodeR $nodeD 100000.0kb 0.0ms DropTail]
+set linkSQ [$ns duplex-link $nodeS $nodeQ 100000.0kb 0.0ms DropTail]
+set linkTD [$ns duplex-link $nodeT $nodeD 100000.0kb 0.0ms DropTail]
+
+set linkClientN [$ns duplex-link $clientPoolN $nodeN 100000.0kb 0.0ms DropTail]
+set linkClientG [$ns duplex-link $clientPoolG $nodeG 100000.0kb 0.0ms DropTail]
+set linkClientS [$ns duplex-link $clientPoolS $nodeS 100000.0kb 0.0ms DropTail]
+
+$ns rtproto Static
+$ns run

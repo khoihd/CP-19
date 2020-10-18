@@ -1,0 +1,1473 @@
+{
+  "client" : {
+    "name" : "clientPoolC"
+  },
+  "request" : {
+    "startTime" : 150000,
+    "networkDuration" : 500000,
+    "service" : {
+      "group" : "com.bbn",
+      "artifact" : "test-service3",
+      "version" : "1"
+    },
+    "networkLoad" : {
+      "DATARATE_TX" : 0.001,
+      "DATARATE_RX" : 0.002
+    },
+    "serverDuration" : 500000,
+    "nodeLoad" : {
+      "TASK_CONTAINERS" : 0.1
+    },
+    "numClients" : 20
+  },
+  "timeReceived" : 150760,
+  "status" : "SUCCESS",
+  "load" : {
+    "TASK_CONTAINERS" : 0.1
+  },
+  "serverCapacity" : {
+    "CPU" : 1.0,
+    "TASK_CONTAINERS" : 1.0,
+    "QueueLength" : 1000000.0
+  }
+}{
+  "client" : {
+    "name" : "clientPoolC"
+  },
+  "request" : {
+    "startTime" : 150000,
+    "networkDuration" : 500000,
+    "service" : {
+      "group" : "com.bbn",
+      "artifact" : "test-service3",
+      "version" : "1"
+    },
+    "networkLoad" : {
+      "DATARATE_TX" : 0.001,
+      "DATARATE_RX" : 0.002
+    },
+    "serverDuration" : 500000,
+    "nodeLoad" : {
+      "TASK_CONTAINERS" : 0.1
+    },
+    "numClients" : 20
+  },
+  "timeReceived" : 150805,
+  "status" : "SUCCESS",
+  "load" : {
+    "TASK_CONTAINERS" : 0.2
+  },
+  "serverCapacity" : {
+    "CPU" : 1.0,
+    "TASK_CONTAINERS" : 1.0,
+    "QueueLength" : 1000000.0
+  }
+}{
+  "client" : {
+    "name" : "clientPoolC"
+  },
+  "request" : {
+    "startTime" : 150000,
+    "networkDuration" : 500000,
+    "service" : {
+      "group" : "com.bbn",
+      "artifact" : "test-service3",
+      "version" : "1"
+    },
+    "networkLoad" : {
+      "DATARATE_TX" : 0.001,
+      "DATARATE_RX" : 0.002
+    },
+    "serverDuration" : 500000,
+    "nodeLoad" : {
+      "TASK_CONTAINERS" : 0.1
+    },
+    "numClients" : 20
+  },
+  "timeReceived" : 150844,
+  "status" : "SUCCESS",
+  "load" : {
+    "TASK_CONTAINERS" : 0.30000000000000004
+  },
+  "serverCapacity" : {
+    "CPU" : 1.0,
+    "TASK_CONTAINERS" : 1.0,
+    "QueueLength" : 1000000.0
+  }
+}{
+  "client" : {
+    "name" : "clientPoolC"
+  },
+  "request" : {
+    "startTime" : 150000,
+    "networkDuration" : 500000,
+    "service" : {
+      "group" : "com.bbn",
+      "artifact" : "test-service3",
+      "version" : "1"
+    },
+    "networkLoad" : {
+      "DATARATE_TX" : 0.001,
+      "DATARATE_RX" : 0.002
+    },
+    "serverDuration" : 500000,
+    "nodeLoad" : {
+      "TASK_CONTAINERS" : 0.1
+    },
+    "numClients" : 20
+  },
+  "timeReceived" : 150883,
+  "status" : "SUCCESS",
+  "load" : {
+    "TASK_CONTAINERS" : 0.4
+  },
+  "serverCapacity" : {
+    "CPU" : 1.0,
+    "TASK_CONTAINERS" : 1.0,
+    "QueueLength" : 1000000.0
+  }
+}{
+  "client" : {
+    "name" : "clientPoolC"
+  },
+  "request" : {
+    "startTime" : 150000,
+    "networkDuration" : 500000,
+    "service" : {
+      "group" : "com.bbn",
+      "artifact" : "test-service3",
+      "version" : "1"
+    },
+    "networkLoad" : {
+      "DATARATE_TX" : 0.001,
+      "DATARATE_RX" : 0.002
+    },
+    "serverDuration" : 500000,
+    "nodeLoad" : {
+      "TASK_CONTAINERS" : 0.1
+    },
+    "numClients" : 20
+  },
+  "timeReceived" : 150910,
+  "status" : "SUCCESS",
+  "load" : {
+    "TASK_CONTAINERS" : 0.5
+  },
+  "serverCapacity" : {
+    "CPU" : 1.0,
+    "TASK_CONTAINERS" : 1.0,
+    "QueueLength" : 1000000.0
+  }
+}{
+  "client" : {
+    "name" : "clientPoolC"
+  },
+  "request" : {
+    "startTime" : 150000,
+    "networkDuration" : 500000,
+    "service" : {
+      "group" : "com.bbn",
+      "artifact" : "test-service3",
+      "version" : "1"
+    },
+    "networkLoad" : {
+      "DATARATE_TX" : 0.001,
+      "DATARATE_RX" : 0.002
+    },
+    "serverDuration" : 500000,
+    "nodeLoad" : {
+      "TASK_CONTAINERS" : 0.1
+    },
+    "numClients" : 20
+  },
+  "timeReceived" : 150939,
+  "status" : "SUCCESS",
+  "load" : {
+    "TASK_CONTAINERS" : 0.6
+  },
+  "serverCapacity" : {
+    "CPU" : 1.0,
+    "TASK_CONTAINERS" : 1.0,
+    "QueueLength" : 1000000.0
+  }
+}{
+  "client" : {
+    "name" : "clientPoolC"
+  },
+  "request" : {
+    "startTime" : 150000,
+    "networkDuration" : 500000,
+    "service" : {
+      "group" : "com.bbn",
+      "artifact" : "test-service3",
+      "version" : "1"
+    },
+    "networkLoad" : {
+      "DATARATE_TX" : 0.001,
+      "DATARATE_RX" : 0.002
+    },
+    "serverDuration" : 500000,
+    "nodeLoad" : {
+      "TASK_CONTAINERS" : 0.1
+    },
+    "numClients" : 20
+  },
+  "timeReceived" : 150970,
+  "status" : "SUCCESS",
+  "load" : {
+    "TASK_CONTAINERS" : 0.7
+  },
+  "serverCapacity" : {
+    "CPU" : 1.0,
+    "TASK_CONTAINERS" : 1.0,
+    "QueueLength" : 1000000.0
+  }
+}{
+  "client" : {
+    "name" : "clientPoolC"
+  },
+  "request" : {
+    "startTime" : 150000,
+    "networkDuration" : 500000,
+    "service" : {
+      "group" : "com.bbn",
+      "artifact" : "test-service3",
+      "version" : "1"
+    },
+    "networkLoad" : {
+      "DATARATE_TX" : 0.001,
+      "DATARATE_RX" : 0.002
+    },
+    "serverDuration" : 500000,
+    "nodeLoad" : {
+      "TASK_CONTAINERS" : 0.1
+    },
+    "numClients" : 20
+  },
+  "timeReceived" : 151012,
+  "status" : "SUCCESS",
+  "load" : {
+    "TASK_CONTAINERS" : 0.7999999999999999
+  },
+  "serverCapacity" : {
+    "CPU" : 1.0,
+    "TASK_CONTAINERS" : 1.0,
+    "QueueLength" : 1000000.0
+  }
+}{
+  "client" : {
+    "name" : "clientPoolC"
+  },
+  "request" : {
+    "startTime" : 150000,
+    "networkDuration" : 500000,
+    "service" : {
+      "group" : "com.bbn",
+      "artifact" : "test-service3",
+      "version" : "1"
+    },
+    "networkLoad" : {
+      "DATARATE_TX" : 0.001,
+      "DATARATE_RX" : 0.002
+    },
+    "serverDuration" : 500000,
+    "nodeLoad" : {
+      "TASK_CONTAINERS" : 0.1
+    },
+    "numClients" : 20
+  },
+  "timeReceived" : 151045,
+  "status" : "SLOW",
+  "load" : {
+    "TASK_CONTAINERS" : 0.8999999999999999
+  },
+  "serverCapacity" : {
+    "CPU" : 1.0,
+    "TASK_CONTAINERS" : 1.0,
+    "QueueLength" : 1000000.0
+  }
+}{
+  "client" : {
+    "name" : "clientPoolC"
+  },
+  "request" : {
+    "startTime" : 150000,
+    "networkDuration" : 500000,
+    "service" : {
+      "group" : "com.bbn",
+      "artifact" : "test-service3",
+      "version" : "1"
+    },
+    "networkLoad" : {
+      "DATARATE_TX" : 0.001,
+      "DATARATE_RX" : 0.002
+    },
+    "serverDuration" : 500000,
+    "nodeLoad" : {
+      "TASK_CONTAINERS" : 0.1
+    },
+    "numClients" : 20
+  },
+  "timeReceived" : 151074,
+  "status" : "SLOW",
+  "load" : {
+    "TASK_CONTAINERS" : 0.9999999999999999
+  },
+  "serverCapacity" : {
+    "CPU" : 1.0,
+    "TASK_CONTAINERS" : 1.0,
+    "QueueLength" : 1000000.0
+  }
+}{
+  "client" : {
+    "name" : "clientPoolC"
+  },
+  "request" : {
+    "startTime" : 150000,
+    "networkDuration" : 500000,
+    "service" : {
+      "group" : "com.bbn",
+      "artifact" : "test-service3",
+      "version" : "1"
+    },
+    "networkLoad" : {
+      "DATARATE_TX" : 0.001,
+      "DATARATE_RX" : 0.002
+    },
+    "serverDuration" : 500000,
+    "nodeLoad" : {
+      "TASK_CONTAINERS" : 0.1
+    },
+    "numClients" : 20
+  },
+  "timeReceived" : 151105,
+  "status" : "FAIL",
+  "load" : {
+    "TASK_CONTAINERS" : 1.0999999999999999
+  },
+  "serverCapacity" : {
+    "CPU" : 1.0,
+    "TASK_CONTAINERS" : 1.0,
+    "QueueLength" : 1000000.0
+  }
+}{
+  "client" : {
+    "name" : "clientPoolC"
+  },
+  "request" : {
+    "startTime" : 150000,
+    "networkDuration" : 500000,
+    "service" : {
+      "group" : "com.bbn",
+      "artifact" : "test-service3",
+      "version" : "1"
+    },
+    "networkLoad" : {
+      "DATARATE_TX" : 0.001,
+      "DATARATE_RX" : 0.002
+    },
+    "serverDuration" : 500000,
+    "nodeLoad" : {
+      "TASK_CONTAINERS" : 0.1
+    },
+    "numClients" : 20
+  },
+  "timeReceived" : 151141,
+  "status" : "FAIL",
+  "load" : {
+    "TASK_CONTAINERS" : 1.0999999999999999
+  },
+  "serverCapacity" : {
+    "CPU" : 1.0,
+    "TASK_CONTAINERS" : 1.0,
+    "QueueLength" : 1000000.0
+  }
+}{
+  "client" : {
+    "name" : "clientPoolC"
+  },
+  "request" : {
+    "startTime" : 150000,
+    "networkDuration" : 500000,
+    "service" : {
+      "group" : "com.bbn",
+      "artifact" : "test-service3",
+      "version" : "1"
+    },
+    "networkLoad" : {
+      "DATARATE_TX" : 0.001,
+      "DATARATE_RX" : 0.002
+    },
+    "serverDuration" : 500000,
+    "nodeLoad" : {
+      "TASK_CONTAINERS" : 0.1
+    },
+    "numClients" : 20
+  },
+  "timeReceived" : 151174,
+  "status" : "FAIL",
+  "load" : {
+    "TASK_CONTAINERS" : 1.0999999999999999
+  },
+  "serverCapacity" : {
+    "CPU" : 1.0,
+    "TASK_CONTAINERS" : 1.0,
+    "QueueLength" : 1000000.0
+  }
+}{
+  "client" : {
+    "name" : "clientPoolC"
+  },
+  "request" : {
+    "startTime" : 150000,
+    "networkDuration" : 500000,
+    "service" : {
+      "group" : "com.bbn",
+      "artifact" : "test-service3",
+      "version" : "1"
+    },
+    "networkLoad" : {
+      "DATARATE_TX" : 0.001,
+      "DATARATE_RX" : 0.002
+    },
+    "serverDuration" : 500000,
+    "nodeLoad" : {
+      "TASK_CONTAINERS" : 0.1
+    },
+    "numClients" : 20
+  },
+  "timeReceived" : 151223,
+  "status" : "FAIL",
+  "load" : {
+    "TASK_CONTAINERS" : 1.0999999999999999
+  },
+  "serverCapacity" : {
+    "CPU" : 1.0,
+    "TASK_CONTAINERS" : 1.0,
+    "QueueLength" : 1000000.0
+  }
+}{
+  "client" : {
+    "name" : "clientPoolC"
+  },
+  "request" : {
+    "startTime" : 150000,
+    "networkDuration" : 500000,
+    "service" : {
+      "group" : "com.bbn",
+      "artifact" : "test-service3",
+      "version" : "1"
+    },
+    "networkLoad" : {
+      "DATARATE_TX" : 0.001,
+      "DATARATE_RX" : 0.002
+    },
+    "serverDuration" : 500000,
+    "nodeLoad" : {
+      "TASK_CONTAINERS" : 0.1
+    },
+    "numClients" : 20
+  },
+  "timeReceived" : 151281,
+  "status" : "FAIL",
+  "load" : {
+    "TASK_CONTAINERS" : 1.0999999999999999
+  },
+  "serverCapacity" : {
+    "CPU" : 1.0,
+    "TASK_CONTAINERS" : 1.0,
+    "QueueLength" : 1000000.0
+  }
+}{
+  "client" : {
+    "name" : "clientPoolC"
+  },
+  "request" : {
+    "startTime" : 150000,
+    "networkDuration" : 500000,
+    "service" : {
+      "group" : "com.bbn",
+      "artifact" : "test-service3",
+      "version" : "1"
+    },
+    "networkLoad" : {
+      "DATARATE_TX" : 0.001,
+      "DATARATE_RX" : 0.002
+    },
+    "serverDuration" : 500000,
+    "nodeLoad" : {
+      "TASK_CONTAINERS" : 0.1
+    },
+    "numClients" : 20
+  },
+  "timeReceived" : 151327,
+  "status" : "FAIL",
+  "load" : {
+    "TASK_CONTAINERS" : 1.0999999999999999
+  },
+  "serverCapacity" : {
+    "CPU" : 1.0,
+    "TASK_CONTAINERS" : 1.0,
+    "QueueLength" : 1000000.0
+  }
+}{
+  "client" : {
+    "name" : "clientPoolC"
+  },
+  "request" : {
+    "startTime" : 150000,
+    "networkDuration" : 500000,
+    "service" : {
+      "group" : "com.bbn",
+      "artifact" : "test-service3",
+      "version" : "1"
+    },
+    "networkLoad" : {
+      "DATARATE_TX" : 0.001,
+      "DATARATE_RX" : 0.002
+    },
+    "serverDuration" : 500000,
+    "nodeLoad" : {
+      "TASK_CONTAINERS" : 0.1
+    },
+    "numClients" : 20
+  },
+  "timeReceived" : 151369,
+  "status" : "FAIL",
+  "load" : {
+    "TASK_CONTAINERS" : 1.0999999999999999
+  },
+  "serverCapacity" : {
+    "CPU" : 1.0,
+    "TASK_CONTAINERS" : 1.0,
+    "QueueLength" : 1000000.0
+  }
+}{
+  "client" : {
+    "name" : "clientPoolC"
+  },
+  "request" : {
+    "startTime" : 150000,
+    "networkDuration" : 500000,
+    "service" : {
+      "group" : "com.bbn",
+      "artifact" : "test-service3",
+      "version" : "1"
+    },
+    "networkLoad" : {
+      "DATARATE_TX" : 0.001,
+      "DATARATE_RX" : 0.002
+    },
+    "serverDuration" : 500000,
+    "nodeLoad" : {
+      "TASK_CONTAINERS" : 0.1
+    },
+    "numClients" : 20
+  },
+  "timeReceived" : 151408,
+  "status" : "FAIL",
+  "load" : {
+    "TASK_CONTAINERS" : 1.0999999999999999
+  },
+  "serverCapacity" : {
+    "CPU" : 1.0,
+    "TASK_CONTAINERS" : 1.0,
+    "QueueLength" : 1000000.0
+  }
+}{
+  "client" : {
+    "name" : "clientPoolC"
+  },
+  "request" : {
+    "startTime" : 150000,
+    "networkDuration" : 500000,
+    "service" : {
+      "group" : "com.bbn",
+      "artifact" : "test-service3",
+      "version" : "1"
+    },
+    "networkLoad" : {
+      "DATARATE_TX" : 0.001,
+      "DATARATE_RX" : 0.002
+    },
+    "serverDuration" : 500000,
+    "nodeLoad" : {
+      "TASK_CONTAINERS" : 0.1
+    },
+    "numClients" : 20
+  },
+  "timeReceived" : 151447,
+  "status" : "FAIL",
+  "load" : {
+    "TASK_CONTAINERS" : 1.0999999999999999
+  },
+  "serverCapacity" : {
+    "CPU" : 1.0,
+    "TASK_CONTAINERS" : 1.0,
+    "QueueLength" : 1000000.0
+  }
+}{
+  "client" : {
+    "name" : "clientPoolC"
+  },
+  "request" : {
+    "startTime" : 150000,
+    "networkDuration" : 500000,
+    "service" : {
+      "group" : "com.bbn",
+      "artifact" : "test-service3",
+      "version" : "1"
+    },
+    "networkLoad" : {
+      "DATARATE_TX" : 0.001,
+      "DATARATE_RX" : 0.002
+    },
+    "serverDuration" : 500000,
+    "nodeLoad" : {
+      "TASK_CONTAINERS" : 0.1
+    },
+    "numClients" : 20
+  },
+  "timeReceived" : 151478,
+  "status" : "FAIL",
+  "load" : {
+    "TASK_CONTAINERS" : 1.0999999999999999
+  },
+  "serverCapacity" : {
+    "CPU" : 1.0,
+    "TASK_CONTAINERS" : 1.0,
+    "QueueLength" : 1000000.0
+  }
+}{
+  "client" : {
+    "name" : "clientPoolC"
+  },
+  "request" : {
+    "startTime" : 210000,
+    "networkDuration" : 500000,
+    "service" : {
+      "group" : "com.bbn",
+      "artifact" : "test-service3",
+      "version" : "1"
+    },
+    "networkLoad" : {
+      "DATARATE_TX" : 0.001,
+      "DATARATE_RX" : 0.002
+    },
+    "serverDuration" : 500000,
+    "nodeLoad" : {
+      "TASK_CONTAINERS" : 0.1
+    },
+    "numClients" : 20
+  },
+  "timeReceived" : 211729,
+  "status" : "FAIL",
+  "load" : {
+    "TASK_CONTAINERS" : 1.0999999999999999
+  },
+  "serverCapacity" : {
+    "CPU" : 1.0,
+    "TASK_CONTAINERS" : 1.0,
+    "QueueLength" : 1000000.0
+  }
+}{
+  "client" : {
+    "name" : "clientPoolC"
+  },
+  "request" : {
+    "startTime" : 210000,
+    "networkDuration" : 500000,
+    "service" : {
+      "group" : "com.bbn",
+      "artifact" : "test-service3",
+      "version" : "1"
+    },
+    "networkLoad" : {
+      "DATARATE_TX" : 0.001,
+      "DATARATE_RX" : 0.002
+    },
+    "serverDuration" : 500000,
+    "nodeLoad" : {
+      "TASK_CONTAINERS" : 0.1
+    },
+    "numClients" : 20
+  },
+  "timeReceived" : 211834,
+  "status" : "FAIL",
+  "load" : {
+    "TASK_CONTAINERS" : 1.0999999999999999
+  },
+  "serverCapacity" : {
+    "CPU" : 1.0,
+    "TASK_CONTAINERS" : 1.0,
+    "QueueLength" : 1000000.0
+  }
+}{
+  "client" : {
+    "name" : "clientPoolC"
+  },
+  "request" : {
+    "startTime" : 210000,
+    "networkDuration" : 500000,
+    "service" : {
+      "group" : "com.bbn",
+      "artifact" : "test-service3",
+      "version" : "1"
+    },
+    "networkLoad" : {
+      "DATARATE_TX" : 0.001,
+      "DATARATE_RX" : 0.002
+    },
+    "serverDuration" : 500000,
+    "nodeLoad" : {
+      "TASK_CONTAINERS" : 0.1
+    },
+    "numClients" : 20
+  },
+  "timeReceived" : 211959,
+  "status" : "FAIL",
+  "load" : {
+    "TASK_CONTAINERS" : 1.0999999999999999
+  },
+  "serverCapacity" : {
+    "CPU" : 1.0,
+    "TASK_CONTAINERS" : 1.0,
+    "QueueLength" : 1000000.0
+  }
+}{
+  "client" : {
+    "name" : "clientPoolC"
+  },
+  "request" : {
+    "startTime" : 210000,
+    "networkDuration" : 500000,
+    "service" : {
+      "group" : "com.bbn",
+      "artifact" : "test-service3",
+      "version" : "1"
+    },
+    "networkLoad" : {
+      "DATARATE_TX" : 0.001,
+      "DATARATE_RX" : 0.002
+    },
+    "serverDuration" : 500000,
+    "nodeLoad" : {
+      "TASK_CONTAINERS" : 0.1
+    },
+    "numClients" : 20
+  },
+  "timeReceived" : 212077,
+  "status" : "FAIL",
+  "load" : {
+    "TASK_CONTAINERS" : 1.0999999999999999
+  },
+  "serverCapacity" : {
+    "CPU" : 1.0,
+    "TASK_CONTAINERS" : 1.0,
+    "QueueLength" : 1000000.0
+  }
+}{
+  "client" : {
+    "name" : "clientPoolC"
+  },
+  "request" : {
+    "startTime" : 210000,
+    "networkDuration" : 500000,
+    "service" : {
+      "group" : "com.bbn",
+      "artifact" : "test-service3",
+      "version" : "1"
+    },
+    "networkLoad" : {
+      "DATARATE_TX" : 0.001,
+      "DATARATE_RX" : 0.002
+    },
+    "serverDuration" : 500000,
+    "nodeLoad" : {
+      "TASK_CONTAINERS" : 0.1
+    },
+    "numClients" : 20
+  },
+  "timeReceived" : 212289,
+  "status" : "FAIL",
+  "load" : {
+    "TASK_CONTAINERS" : 1.0999999999999999
+  },
+  "serverCapacity" : {
+    "CPU" : 1.0,
+    "TASK_CONTAINERS" : 1.0,
+    "QueueLength" : 1000000.0
+  }
+}{
+  "client" : {
+    "name" : "clientPoolC"
+  },
+  "request" : {
+    "startTime" : 210000,
+    "networkDuration" : 500000,
+    "service" : {
+      "group" : "com.bbn",
+      "artifact" : "test-service3",
+      "version" : "1"
+    },
+    "networkLoad" : {
+      "DATARATE_TX" : 0.001,
+      "DATARATE_RX" : 0.002
+    },
+    "serverDuration" : 500000,
+    "nodeLoad" : {
+      "TASK_CONTAINERS" : 0.1
+    },
+    "numClients" : 20
+  },
+  "timeReceived" : 212323,
+  "status" : "FAIL",
+  "load" : {
+    "TASK_CONTAINERS" : 1.0999999999999999
+  },
+  "serverCapacity" : {
+    "CPU" : 1.0,
+    "TASK_CONTAINERS" : 1.0,
+    "QueueLength" : 1000000.0
+  }
+}{
+  "client" : {
+    "name" : "clientPoolC"
+  },
+  "request" : {
+    "startTime" : 270000,
+    "networkDuration" : 500000,
+    "service" : {
+      "group" : "com.bbn",
+      "artifact" : "test-service3",
+      "version" : "1"
+    },
+    "networkLoad" : {
+      "DATARATE_TX" : 0.001,
+      "DATARATE_RX" : 0.002
+    },
+    "serverDuration" : 500000,
+    "nodeLoad" : {
+      "TASK_CONTAINERS" : 0.1
+    },
+    "numClients" : 20
+  },
+  "timeReceived" : 271979,
+  "status" : "FAIL",
+  "load" : {
+    "TASK_CONTAINERS" : 1.0999999999999999
+  },
+  "serverCapacity" : {
+    "CPU" : 1.0,
+    "TASK_CONTAINERS" : 1.0,
+    "QueueLength" : 1000000.0
+  }
+}{
+  "client" : {
+    "name" : "clientPoolC"
+  },
+  "request" : {
+    "startTime" : 270000,
+    "networkDuration" : 500000,
+    "service" : {
+      "group" : "com.bbn",
+      "artifact" : "test-service3",
+      "version" : "1"
+    },
+    "networkLoad" : {
+      "DATARATE_TX" : 0.001,
+      "DATARATE_RX" : 0.002
+    },
+    "serverDuration" : 500000,
+    "nodeLoad" : {
+      "TASK_CONTAINERS" : 0.1
+    },
+    "numClients" : 20
+  },
+  "timeReceived" : 272048,
+  "status" : "FAIL",
+  "load" : {
+    "TASK_CONTAINERS" : 1.0999999999999999
+  },
+  "serverCapacity" : {
+    "CPU" : 1.0,
+    "TASK_CONTAINERS" : 1.0,
+    "QueueLength" : 1000000.0
+  }
+}{
+  "client" : {
+    "name" : "clientPoolC"
+  },
+  "request" : {
+    "startTime" : 270000,
+    "networkDuration" : 500000,
+    "service" : {
+      "group" : "com.bbn",
+      "artifact" : "test-service3",
+      "version" : "1"
+    },
+    "networkLoad" : {
+      "DATARATE_TX" : 0.001,
+      "DATARATE_RX" : 0.002
+    },
+    "serverDuration" : 500000,
+    "nodeLoad" : {
+      "TASK_CONTAINERS" : 0.1
+    },
+    "numClients" : 20
+  },
+  "timeReceived" : 272236,
+  "status" : "FAIL",
+  "load" : {
+    "TASK_CONTAINERS" : 1.0999999999999999
+  },
+  "serverCapacity" : {
+    "CPU" : 1.0,
+    "TASK_CONTAINERS" : 1.0,
+    "QueueLength" : 1000000.0
+  }
+}{
+  "client" : {
+    "name" : "clientPoolC"
+  },
+  "request" : {
+    "startTime" : 270000,
+    "networkDuration" : 500000,
+    "service" : {
+      "group" : "com.bbn",
+      "artifact" : "test-service3",
+      "version" : "1"
+    },
+    "networkLoad" : {
+      "DATARATE_TX" : 0.001,
+      "DATARATE_RX" : 0.002
+    },
+    "serverDuration" : 500000,
+    "nodeLoad" : {
+      "TASK_CONTAINERS" : 0.1
+    },
+    "numClients" : 20
+  },
+  "timeReceived" : 272395,
+  "status" : "FAIL",
+  "load" : {
+    "TASK_CONTAINERS" : 1.0999999999999999
+  },
+  "serverCapacity" : {
+    "CPU" : 1.0,
+    "TASK_CONTAINERS" : 1.0,
+    "QueueLength" : 1000000.0
+  }
+}{
+  "client" : {
+    "name" : "clientPoolC"
+  },
+  "request" : {
+    "startTime" : 330000,
+    "networkDuration" : 500000,
+    "service" : {
+      "group" : "com.bbn",
+      "artifact" : "test-service3",
+      "version" : "1"
+    },
+    "networkLoad" : {
+      "DATARATE_TX" : 0.001,
+      "DATARATE_RX" : 0.002
+    },
+    "serverDuration" : 500000,
+    "nodeLoad" : {
+      "TASK_CONTAINERS" : 0.1
+    },
+    "numClients" : 20
+  },
+  "timeReceived" : 331717,
+  "status" : "FAIL",
+  "load" : {
+    "TASK_CONTAINERS" : 1.0999999999999999
+  },
+  "serverCapacity" : {
+    "CPU" : 1.0,
+    "TASK_CONTAINERS" : 1.0,
+    "QueueLength" : 1000000.0
+  }
+}{
+  "client" : {
+    "name" : "clientPoolC"
+  },
+  "request" : {
+    "startTime" : 330000,
+    "networkDuration" : 500000,
+    "service" : {
+      "group" : "com.bbn",
+      "artifact" : "test-service3",
+      "version" : "1"
+    },
+    "networkLoad" : {
+      "DATARATE_TX" : 0.001,
+      "DATARATE_RX" : 0.002
+    },
+    "serverDuration" : 500000,
+    "nodeLoad" : {
+      "TASK_CONTAINERS" : 0.1
+    },
+    "numClients" : 20
+  },
+  "timeReceived" : 331960,
+  "status" : "FAIL",
+  "load" : {
+    "TASK_CONTAINERS" : 1.0999999999999999
+  },
+  "serverCapacity" : {
+    "CPU" : 1.0,
+    "TASK_CONTAINERS" : 1.0,
+    "QueueLength" : 1000000.0
+  }
+}{
+  "client" : {
+    "name" : "clientPoolC"
+  },
+  "request" : {
+    "startTime" : 330000,
+    "networkDuration" : 500000,
+    "service" : {
+      "group" : "com.bbn",
+      "artifact" : "test-service3",
+      "version" : "1"
+    },
+    "networkLoad" : {
+      "DATARATE_TX" : 0.001,
+      "DATARATE_RX" : 0.002
+    },
+    "serverDuration" : 500000,
+    "nodeLoad" : {
+      "TASK_CONTAINERS" : 0.1
+    },
+    "numClients" : 20
+  },
+  "timeReceived" : 332320,
+  "status" : "FAIL",
+  "load" : {
+    "TASK_CONTAINERS" : 1.0999999999999999
+  },
+  "serverCapacity" : {
+    "CPU" : 1.0,
+    "TASK_CONTAINERS" : 1.0,
+    "QueueLength" : 1000000.0
+  }
+}{
+  "client" : {
+    "name" : "clientPoolC"
+  },
+  "request" : {
+    "startTime" : 330000,
+    "networkDuration" : 500000,
+    "service" : {
+      "group" : "com.bbn",
+      "artifact" : "test-service3",
+      "version" : "1"
+    },
+    "networkLoad" : {
+      "DATARATE_TX" : 0.001,
+      "DATARATE_RX" : 0.002
+    },
+    "serverDuration" : 500000,
+    "nodeLoad" : {
+      "TASK_CONTAINERS" : 0.1
+    },
+    "numClients" : 20
+  },
+  "timeReceived" : 332428,
+  "status" : "FAIL",
+  "load" : {
+    "TASK_CONTAINERS" : 1.0999999999999999
+  },
+  "serverCapacity" : {
+    "CPU" : 1.0,
+    "TASK_CONTAINERS" : 1.0,
+    "QueueLength" : 1000000.0
+  }
+}{
+  "client" : {
+    "name" : "clientPoolC"
+  },
+  "request" : {
+    "startTime" : 390000,
+    "networkDuration" : 500000,
+    "service" : {
+      "group" : "com.bbn",
+      "artifact" : "test-service3",
+      "version" : "1"
+    },
+    "networkLoad" : {
+      "DATARATE_TX" : 0.001,
+      "DATARATE_RX" : 0.002
+    },
+    "serverDuration" : 500000,
+    "nodeLoad" : {
+      "TASK_CONTAINERS" : 0.1
+    },
+    "numClients" : 20
+  },
+  "timeReceived" : 392025,
+  "status" : "FAIL",
+  "load" : {
+    "TASK_CONTAINERS" : 1.0999999999999999
+  },
+  "serverCapacity" : {
+    "CPU" : 1.0,
+    "TASK_CONTAINERS" : 1.0,
+    "QueueLength" : 1000000.0
+  }
+}{
+  "client" : {
+    "name" : "clientPoolC"
+  },
+  "request" : {
+    "startTime" : 390000,
+    "networkDuration" : 500000,
+    "service" : {
+      "group" : "com.bbn",
+      "artifact" : "test-service3",
+      "version" : "1"
+    },
+    "networkLoad" : {
+      "DATARATE_TX" : 0.001,
+      "DATARATE_RX" : 0.002
+    },
+    "serverDuration" : 500000,
+    "nodeLoad" : {
+      "TASK_CONTAINERS" : 0.1
+    },
+    "numClients" : 20
+  },
+  "timeReceived" : 392083,
+  "status" : "FAIL",
+  "load" : {
+    "TASK_CONTAINERS" : 1.0999999999999999
+  },
+  "serverCapacity" : {
+    "CPU" : 1.0,
+    "TASK_CONTAINERS" : 1.0,
+    "QueueLength" : 1000000.0
+  }
+}{
+  "client" : {
+    "name" : "clientPoolC"
+  },
+  "request" : {
+    "startTime" : 390000,
+    "networkDuration" : 500000,
+    "service" : {
+      "group" : "com.bbn",
+      "artifact" : "test-service3",
+      "version" : "1"
+    },
+    "networkLoad" : {
+      "DATARATE_TX" : 0.001,
+      "DATARATE_RX" : 0.002
+    },
+    "serverDuration" : 500000,
+    "nodeLoad" : {
+      "TASK_CONTAINERS" : 0.1
+    },
+    "numClients" : 20
+  },
+  "timeReceived" : 392235,
+  "status" : "FAIL",
+  "load" : {
+    "TASK_CONTAINERS" : 1.0999999999999999
+  },
+  "serverCapacity" : {
+    "CPU" : 1.0,
+    "TASK_CONTAINERS" : 1.0,
+    "QueueLength" : 1000000.0
+  }
+}{
+  "client" : {
+    "name" : "clientPoolC"
+  },
+  "request" : {
+    "startTime" : 390000,
+    "networkDuration" : 500000,
+    "service" : {
+      "group" : "com.bbn",
+      "artifact" : "test-service3",
+      "version" : "1"
+    },
+    "networkLoad" : {
+      "DATARATE_TX" : 0.001,
+      "DATARATE_RX" : 0.002
+    },
+    "serverDuration" : 500000,
+    "nodeLoad" : {
+      "TASK_CONTAINERS" : 0.1
+    },
+    "numClients" : 20
+  },
+  "timeReceived" : 392367,
+  "status" : "FAIL",
+  "load" : {
+    "TASK_CONTAINERS" : 1.0999999999999999
+  },
+  "serverCapacity" : {
+    "CPU" : 1.0,
+    "TASK_CONTAINERS" : 1.0,
+    "QueueLength" : 1000000.0
+  }
+}{
+  "client" : {
+    "name" : "clientPoolC"
+  },
+  "request" : {
+    "startTime" : 390000,
+    "networkDuration" : 500000,
+    "service" : {
+      "group" : "com.bbn",
+      "artifact" : "test-service3",
+      "version" : "1"
+    },
+    "networkLoad" : {
+      "DATARATE_TX" : 0.001,
+      "DATARATE_RX" : 0.002
+    },
+    "serverDuration" : 500000,
+    "nodeLoad" : {
+      "TASK_CONTAINERS" : 0.1
+    },
+    "numClients" : 20
+  },
+  "timeReceived" : 392418,
+  "status" : "FAIL",
+  "load" : {
+    "TASK_CONTAINERS" : 1.0999999999999999
+  },
+  "serverCapacity" : {
+    "CPU" : 1.0,
+    "TASK_CONTAINERS" : 1.0,
+    "QueueLength" : 1000000.0
+  }
+}{
+  "client" : {
+    "name" : "clientPoolC"
+  },
+  "request" : {
+    "startTime" : 450000,
+    "networkDuration" : 500000,
+    "service" : {
+      "group" : "com.bbn",
+      "artifact" : "test-service3",
+      "version" : "1"
+    },
+    "networkLoad" : {
+      "DATARATE_TX" : 0.001,
+      "DATARATE_RX" : 0.002
+    },
+    "serverDuration" : 500000,
+    "nodeLoad" : {
+      "TASK_CONTAINERS" : 0.1
+    },
+    "numClients" : 20
+  },
+  "timeReceived" : 452232,
+  "status" : "FAIL",
+  "load" : {
+    "TASK_CONTAINERS" : 1.0999999999999999
+  },
+  "serverCapacity" : {
+    "CPU" : 1.0,
+    "TASK_CONTAINERS" : 1.0,
+    "QueueLength" : 1000000.0
+  }
+}{
+  "client" : {
+    "name" : "clientPoolC"
+  },
+  "request" : {
+    "startTime" : 450000,
+    "networkDuration" : 500000,
+    "service" : {
+      "group" : "com.bbn",
+      "artifact" : "test-service3",
+      "version" : "1"
+    },
+    "networkLoad" : {
+      "DATARATE_TX" : 0.001,
+      "DATARATE_RX" : 0.002
+    },
+    "serverDuration" : 500000,
+    "nodeLoad" : {
+      "TASK_CONTAINERS" : 0.1
+    },
+    "numClients" : 20
+  },
+  "timeReceived" : 452778,
+  "status" : "FAIL",
+  "load" : {
+    "TASK_CONTAINERS" : 1.0999999999999999
+  },
+  "serverCapacity" : {
+    "CPU" : 1.0,
+    "TASK_CONTAINERS" : 1.0,
+    "QueueLength" : 1000000.0
+  }
+}{
+  "client" : {
+    "name" : "clientPoolC"
+  },
+  "request" : {
+    "startTime" : 450000,
+    "networkDuration" : 500000,
+    "service" : {
+      "group" : "com.bbn",
+      "artifact" : "test-service3",
+      "version" : "1"
+    },
+    "networkLoad" : {
+      "DATARATE_TX" : 0.001,
+      "DATARATE_RX" : 0.002
+    },
+    "serverDuration" : 500000,
+    "nodeLoad" : {
+      "TASK_CONTAINERS" : 0.1
+    },
+    "numClients" : 20
+  },
+  "timeReceived" : 453025,
+  "status" : "FAIL",
+  "load" : {
+    "TASK_CONTAINERS" : 1.0999999999999999
+  },
+  "serverCapacity" : {
+    "CPU" : 1.0,
+    "TASK_CONTAINERS" : 1.0,
+    "QueueLength" : 1000000.0
+  }
+}{
+  "client" : {
+    "name" : "clientPoolC"
+  },
+  "request" : {
+    "startTime" : 510000,
+    "networkDuration" : 500000,
+    "service" : {
+      "group" : "com.bbn",
+      "artifact" : "test-service3",
+      "version" : "1"
+    },
+    "networkLoad" : {
+      "DATARATE_TX" : 0.001,
+      "DATARATE_RX" : 0.002
+    },
+    "serverDuration" : 500000,
+    "nodeLoad" : {
+      "TASK_CONTAINERS" : 0.1
+    },
+    "numClients" : 20
+  },
+  "timeReceived" : 510176,
+  "status" : "FAIL",
+  "load" : {
+    "TASK_CONTAINERS" : 1.0999999999999999
+  },
+  "serverCapacity" : {
+    "CPU" : 1.0,
+    "TASK_CONTAINERS" : 1.0,
+    "QueueLength" : 1000000.0
+  }
+}{
+  "client" : {
+    "name" : "clientPoolC"
+  },
+  "request" : {
+    "startTime" : 510000,
+    "networkDuration" : 500000,
+    "service" : {
+      "group" : "com.bbn",
+      "artifact" : "test-service3",
+      "version" : "1"
+    },
+    "networkLoad" : {
+      "DATARATE_TX" : 0.001,
+      "DATARATE_RX" : 0.002
+    },
+    "serverDuration" : 500000,
+    "nodeLoad" : {
+      "TASK_CONTAINERS" : 0.1
+    },
+    "numClients" : 20
+  },
+  "timeReceived" : 510493,
+  "status" : "FAIL",
+  "load" : {
+    "TASK_CONTAINERS" : 1.0999999999999999
+  },
+  "serverCapacity" : {
+    "CPU" : 1.0,
+    "TASK_CONTAINERS" : 1.0,
+    "QueueLength" : 1000000.0
+  }
+}{
+  "client" : {
+    "name" : "clientPoolC"
+  },
+  "request" : {
+    "startTime" : 510000,
+    "networkDuration" : 500000,
+    "service" : {
+      "group" : "com.bbn",
+      "artifact" : "test-service3",
+      "version" : "1"
+    },
+    "networkLoad" : {
+      "DATARATE_TX" : 0.001,
+      "DATARATE_RX" : 0.002
+    },
+    "serverDuration" : 500000,
+    "nodeLoad" : {
+      "TASK_CONTAINERS" : 0.1
+    },
+    "numClients" : 20
+  },
+  "timeReceived" : 510722,
+  "status" : "FAIL",
+  "load" : {
+    "TASK_CONTAINERS" : 1.0999999999999999
+  },
+  "serverCapacity" : {
+    "CPU" : 1.0,
+    "TASK_CONTAINERS" : 1.0,
+    "QueueLength" : 1000000.0
+  }
+}{
+  "client" : {
+    "name" : "clientPoolC"
+  },
+  "request" : {
+    "startTime" : 570000,
+    "networkDuration" : 500000,
+    "service" : {
+      "group" : "com.bbn",
+      "artifact" : "test-service3",
+      "version" : "1"
+    },
+    "networkLoad" : {
+      "DATARATE_TX" : 0.001,
+      "DATARATE_RX" : 0.002
+    },
+    "serverDuration" : 500000,
+    "nodeLoad" : {
+      "TASK_CONTAINERS" : 0.1
+    },
+    "numClients" : 20
+  },
+  "timeReceived" : 570329,
+  "status" : "FAIL",
+  "load" : {
+    "TASK_CONTAINERS" : 1.0999999999999999
+  },
+  "serverCapacity" : {
+    "CPU" : 1.0,
+    "TASK_CONTAINERS" : 1.0,
+    "QueueLength" : 1000000.0
+  }
+}

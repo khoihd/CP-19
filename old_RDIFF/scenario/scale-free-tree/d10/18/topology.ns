@@ -1,0 +1,71 @@
+# CP Paper
+
+set ns [new Simulator]
+source tb_compact.tcl
+
+# Clients
+set clientPoolF [$ns node]
+tb-set-node-os $clientPoolF XEN46-64-STD
+set clientPoolA [$ns node]
+tb-set-node-os $clientPoolA XEN46-64-STD
+set clientPoolC [$ns node]
+tb-set-node-os $clientPoolC XEN46-64-STD
+
+# NCPs
+set nodeA [$ns node]
+tb-set-node-os $nodeA XEN46-64-STD
+tb-set-hardware $nodeA large
+
+set nodeB [$ns node]
+tb-set-node-os $nodeB XEN46-64-STD
+tb-set-hardware $nodeB simple
+
+set nodeC [$ns node]
+tb-set-node-os $nodeC XEN46-64-STD
+tb-set-hardware $nodeC simple
+
+set nodeD [$ns node]
+tb-set-node-os $nodeD XEN46-64-STD
+tb-set-hardware $nodeD simple
+
+set nodeE [$ns node]
+tb-set-node-os $nodeE XEN46-64-STD
+tb-set-hardware $nodeE simple
+
+set nodeF [$ns node]
+tb-set-node-os $nodeF XEN46-64-STD
+tb-set-hardware $nodeF simple
+
+set nodeG [$ns node]
+tb-set-node-os $nodeG XEN46-64-STD
+tb-set-hardware $nodeG simple
+
+set nodeH [$ns node]
+tb-set-node-os $nodeH XEN46-64-STD
+tb-set-hardware $nodeH simple
+
+set nodeI [$ns node]
+tb-set-node-os $nodeI XEN46-64-STD
+tb-set-hardware $nodeI simple
+
+set nodeJ [$ns node]
+tb-set-node-os $nodeJ XEN46-64-STD
+tb-set-hardware $nodeJ simple
+
+# Links
+set linkBA [$ns duplex-link $nodeB $nodeA 100000.0kb 0.0ms DropTail]
+set linkDB [$ns duplex-link $nodeD $nodeB 100000.0kb 0.0ms DropTail]
+set linkEC [$ns duplex-link $nodeE $nodeC 100000.0kb 0.0ms DropTail]
+set linkED [$ns duplex-link $nodeE $nodeD 100000.0kb 0.0ms DropTail]
+set linkFA [$ns duplex-link $nodeF $nodeA 100000.0kb 0.0ms DropTail]
+set linkGC [$ns duplex-link $nodeG $nodeC 100000.0kb 0.0ms DropTail]
+set linkHF [$ns duplex-link $nodeH $nodeF 100000.0kb 0.0ms DropTail]
+set linkIA [$ns duplex-link $nodeI $nodeA 100000.0kb 0.0ms DropTail]
+set linkJE [$ns duplex-link $nodeJ $nodeE 100000.0kb 0.0ms DropTail]
+
+set linkClientF [$ns duplex-link $clientPoolF $nodeF 100000.0kb 0.0ms DropTail]
+set linkClientA [$ns duplex-link $clientPoolA $nodeA 100000.0kb 0.0ms DropTail]
+set linkClientC [$ns duplex-link $clientPoolC $nodeC 100000.0kb 0.0ms DropTail]
+
+$ns rtproto Static
+$ns run

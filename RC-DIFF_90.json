@@ -1,0 +1,4 @@
+{
+  "dcopRoundDuration" : 90,
+  "dcopAlgorithm" : "FINAL_RCDIFF"
+}

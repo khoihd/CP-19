@@ -1,0 +1,4 @@
+{
+  "dcopRoundDuration" : 60,
+  "dcopAlgorithm" : "DISTRIBUTED_ROUTING_DIFFUSION"
+}

@@ -42,8 +42,8 @@ public class Request {
 
   @Override
   public String toString() {
-//    return "Request [success=" + success + ", fail=" + fail + "]";
-    return "Request [success=" + success + "]";
+    return "Request [success=" + success + ", fail=" + fail + "]";
+//    return "Request [success=" + success + "]";
   }
 
   @Override

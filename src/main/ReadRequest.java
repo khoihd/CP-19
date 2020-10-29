@@ -9,6 +9,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Map.Entry;
 import java.util.SortedMap;
 import java.util.TreeMap;
@@ -19,16 +21,26 @@ import edu.uci.ics.jung.graph.UndirectedSparseGraph;
 
 public class ReadRequest {
 
-  public static final int NUMBER_OF_INSTANCES = 20;
+  public static final int FIRST_INSTANCE = 0;
+  public static final int LAST_INSTANCE = 0;
+
+  public static final int NUMBER_OF_INSTANCES = 10;
     
-  public static final int[] AGENTS = {15};
+//  public static final int[] AGENTS = {5, 10, 15, 20};
+  public static final int[] AGENTS = {10};
   
-  public static final String ALGORITHM = "RDIFF";
-  
+  public static final String ALGORITHM = "RC-DIFF";
+//  public static final String ALGORITHM = "RDIFF";
   public static final String GRAPH = "scale-free-tree";
 //  public static final String GRAPH = "random-network";
   
+  public static final SortedMap<String, Request> regionResult = new TreeMap<>();
+  
+  public static final Map<Integer, SortedMap<String, Request>> regionResultOvertime = new HashMap<>();
+  
   public static void main(String[] args) {
+    int startTime = 30000;
+    
     // Number of agents -> hop -> service -> successful/failed requests
     SortedMap<Integer, SortedMap<Integer, SortedMap<String, Request>>> result = new TreeMap<>();
     
@@ -44,18 +56,21 @@ public class ReadRequest {
     //        "artifact" : "test-service1",
     //        "serverResult" : "SUCCESS" || "serverResult" : "FAIL" || "serverResult" : "SLOW",
     for (int agent : AGENTS) {
-      System.out.println("Agent: " + agent);
-      
-      for (int instance = 0; instance < NUMBER_OF_INSTANCES; instance++) {
+      System.out.println("Agent: " + agent);      
+      for (int instance = FIRST_INSTANCE; instance <= LAST_INSTANCE; instance++) {
+        regionResult.clear();
         //         CDIFF/random-network/d5/0/output
         String directory = ALGORITHM + "/scenario/" + GRAPH + "/d" + agent + "/" + instance;
-        System.out.println(directory);
+//        System.out.println(directory);
                     
         DijkstraShortestPath<String, String> pathFinder = getPathFinder(Paths.get(directory));
         
         String outputDirectory = directory + "/output";
         
-        Path outputPath = Paths.get(outputDirectory);      
+        Path outputPath = Paths.get(outputDirectory);
+        
+        int totalSuccessfulRequests = 0;
+        
         for (final File file : outputPath.toFile().listFiles()) {
           if (file.getName().contains("clientPool")) {
             String client = file.getName().replace("clientPool", "");
@@ -87,11 +102,14 @@ public class ReadRequest {
                 else if (line.contains("serverResult")) {
                   if (line.contains("SUCCESS") || line.contains("SLOW")) {
                     incrementSuccess(result, agent, pathFinder.getDistance(region, client).intValue(), service, numRequest);
+                    totalSuccessfulRequests += numRequest;
 //                    System.out.println("Client=" + client + ", Region=" + region + ", numRequest=" + numRequest);
 //                    System.out.println(result);
+                    incrementRegionSuccess(regionResult, region);
                   }
                   else if (line.contains("FAIL")) {
 //                    incrementFail(result, agent, pathFinder.getDistance(region, client).intValue(), service, numRequest);
+                    incrementRegionFailure(regionResult, region);
                   }
                 }
                 
@@ -103,20 +121,31 @@ public class ReadRequest {
             }
           }
         }
+        int totalSucess = regionResult.entrySet().stream().mapToInt(e -> e.getValue().getSuccess()).sum();
+        int totalFailure = regionResult.entrySet().stream().mapToInt(e -> e.getValue().getFail()).sum();
+        
+        System.out.println("Instance=" + instance);
+        System.out.println("Success=" + totalSucess + ", Failure=" + totalFailure);
+        System.out.println("RegionResult=" + regionResult);
       }
     }
     
     for (Entry<Integer, SortedMap<Integer, SortedMap<String, Request>>> entry : result.entrySet()) {
       System.out.println("Agent = " + entry.getKey());
       
+      int total = 0;
+      
       for (Entry<Integer, SortedMap<String, Request>> innerEntry : entry.getValue().entrySet()) {
         System.out.println("  Hops = " + innerEntry.getKey());
-        System.out.println("  " + innerEntry.getValue().values().stream().mapToInt(Request::getSuccess).sum() / NUMBER_OF_INSTANCES);
+        int count = innerEntry.getValue().values().stream().mapToInt(Request::getSuccess).sum() / (LAST_INSTANCE - FIRST_INSTANCE + 1);
+//        int count = innerEntry.getValue().values().stream().mapToInt(Request::getSuccess).sum();
+        total += count;
+        System.out.println("  " + count);
       }
+      System.out.println("Total=" + total);
       
     }
   }
-
 
   public static void incrementSuccess(SortedMap<Integer, SortedMap<Integer, SortedMap<String, Request>>> result, int agent, int hop, String service, int numRequest) {
     SortedMap<Integer, SortedMap<String, Request>> hopMap = result.getOrDefault(agent, new TreeMap<>());
@@ -140,6 +169,18 @@ public class ReadRequest {
     serviceMap.put(service, request);
     hopMap.put(hop, serviceMap);
     result.put(agent, hopMap);
+  }
+  
+  public static void incrementRegionSuccess(SortedMap<String, Request> map, String region) {
+    Request request = map.getOrDefault(region, new Request());
+    request.incrementSuccess(1);
+    map.put(region, request);
+  }
+  
+  public static void incrementRegionFailure(SortedMap<String, Request> map, String region) {
+    Request request = map.getOrDefault(region, new Request());
+    request.incrementFail(1);
+    map.put(region, request);
   }
   
   public static DijkstraShortestPath<String, String> getPathFinder(Path scenarioPath) {

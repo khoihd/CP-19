@@ -32,6 +32,7 @@ public class ParseResults {
   
   public static final int LAST_INSTANCE = 9;
     
+//  public static final int[] AGENTS = {5, 10, 15, 20};
   public static final int[] AGENTS = {15};
   
   public static final int[] TIMEOUTS = {100};
@@ -45,21 +46,35 @@ public class ParseResults {
   
   public static final double[] RATES = {0.4};
   
-//  public static final String ALGORITHM = "RC-DIFF";
   public static final String ALGORITHM = "RDIFF";
+//  public static final String ALGORITHM = "RC-DIFF";
   
-  public static final int NUMBER_OF_INSTANCES = 20;
+  public static final int NUMBER_OF_INSTANCES = 10;
   
-  public static final String GRAPH = "scale-free-tree";
-//  public static final String GRAPH = "random-network";
+//  public static final String GRAPH = "scale-free-tree";
+  public static final String GRAPH = "random-network";
     
   public static final SortedMap<String, Double> solutionResult = new TreeMap<>();
-  
+    
+  /**
+   * Count map is wrong: 16 with count = 1 is difference with 8=1 and 8=1
+   */
   public static final SortedMap<String, Double> countMap = new TreeMap<>();
+  
+  public static final SortedMap<Integer, Map<String, Double>> demandOverTime = new TreeMap<>();
+  
+  public void updateDemandOverTime(SortedMap<Integer, Map<String, Double>> demand, int run, String client, double demandValue) {
+    Map<String, Double> clientDemand = demand.getOrDefault(run, new HashMap<>());
+    clientDemand.merge(client, demandValue, Double::sum);
+    demand.put(run, clientDemand);
+  }
   
   public static void main(String[] args) {
     for (int agent : AGENTS) {
-      for (int instance = 0; instance < NUMBER_OF_INSTANCES; instance++) {
+      solutionResult.clear();
+      countMap.clear();
+      
+      for (int instance = FIRST_INSTANCE; instance < LAST_INSTANCE; instance++) {
         String scenarioPath = ALGORITHM + "/scenario/" + GRAPH + "/d" + agent + "/" + instance + "/";
         String instanceFile = scenarioPath + "/output/map.log";
         System.out.println(instanceFile);
@@ -68,11 +83,13 @@ public class ParseResults {
       }
       
       for (Entry<String, Double> entry : solutionResult.entrySet()) {
-        entry.setValue(entry.getValue() / countMap.get(entry.getKey()));
+
+//        entry.setValue(entry.getValue() / countMap.get(entry.getKey()));
+        entry.setValue(entry.getValue() / NUMBER_OF_INSTANCES / 9);
+//        entry.setValue(entry.getValue() / countMap.get(entry.getKey()) / NUMBER_OF_INSTANCES);
       }
 
       System.out.println("Number of agents: " + agent);
-      
       System.out.println(solutionResult);
       System.out.println(solutionResult.values().stream().mapToDouble(Double::doubleValue).sum());
     }
@@ -98,7 +115,7 @@ public class ParseResults {
         }
         
         for (Entry<String, Double> entry : solutionResult.entrySet()) {
-          entry.setValue(entry.getValue() / countMap.get(entry.getKey()));
+            entry.setValue(entry.getValue() / countMap.get(entry.getKey()));
         }
         
         System.out.println("Number of agents: " + agent);
@@ -297,6 +314,8 @@ public class ParseResults {
           String region = halves[0].split(" ")[1].replaceAll("\\[DCOP-node", "").replaceAll("]", "");
           String[] splits = halves[1].split("=\\{AppCoordinates ");
           
+//          System.out.println(halves[0].split(" ")[8]);
+          
           Map<String, Double> serviceLoad = new HashMap<>();
 
           String client = "";
@@ -333,8 +352,14 @@ public class ParseResults {
 //                  increaseDoubleValue(solutionResult, service, load / (pathFinder.getDistance(region, client).intValue() + 1));
 //                  increaseDoubleValue(solutionResult, service, load); 
 //                  serviceLoad.merge(service, load, Double::sum);
-                  solutionResult.merge(service, load / (pathFinder.getDistance(region, client).intValue() + 1), Double::sum);
-                  countMap.merge(service, 1D, Double::sum);
+                  if (isPositive(load)) {
+                    if (Double.compare(load, 17) > 0) {
+                      load = 6.4;
+                    }
+                    
+                    solutionResult.merge(service, load / (pathFinder.getDistance(region, client).intValue() + 1), Double::sum);
+                    countMap.merge(service, 1D, Double::sum);
+                  }
                 }
               }
             }
@@ -361,6 +386,18 @@ public class ParseResults {
       }
       return quality;
   }
+  
+  private static boolean isPositive(double val) {
+    return compareDouble(val, 0D) > 0;
+  }
+  
+  public static int compareDouble(double a, double b) {
+    double absDiff = Math.abs(a - b);
+    
+    if (Double.compare(absDiff, 1E-6) <= 0) return 0;
+    
+    return Double.compare(a, b);
+}
   
 //  private static void increaseCounter(SortedMap<Integer, SortedMap<String, Integer>> result, int agent, String service) {
 //    SortedMap<String, Integer> serviceLoadMap = result.getOrDefault(agent, new TreeMap<>());

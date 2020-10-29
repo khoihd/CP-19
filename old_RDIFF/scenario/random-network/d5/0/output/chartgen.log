@@ -1,2 +1,0 @@
-ERROR: --sim is missing an argument
-ERROR: '/Users/khoihd/Documents/workspace/CP-19/scripts/run-chartgen.sh --sim  --scenario ../RDIFF/scenario/random-network/d5/0 --demand ../RDIFF/scenario/random-network/d5/0/Demand --output ../RDIFF/scenario/random-network/d5/0/output' failed

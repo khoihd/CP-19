@@ -10,7 +10,7 @@
 	"defaultNodeRegion": "J",
 	"initialInstances": "1",
 	"computeCapacity": {
-	  "TASK_CONTAINERS": "1",
+	  "TASK_CONTAINERS": "100",
 	"CPU": "1"
 	},
 	"networkCapacity": {
@@ -31,7 +31,7 @@
 	"defaultNodeRegion": "J",
 	"initialInstances": "1",
 	"computeCapacity": {
-	  "TASK_CONTAINERS": "1",
+	  "TASK_CONTAINERS": "100",
 	"CPU": "1"
 	},
 	"networkCapacity": {
@@ -52,7 +52,7 @@
 	"defaultNodeRegion": "J",
 	"initialInstances": "1",
 	"computeCapacity": {
-	  "TASK_CONTAINERS": "1",
+	  "TASK_CONTAINERS": "100",
 	"CPU": "1"
 	},
 	"networkCapacity": {

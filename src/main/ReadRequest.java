@@ -21,18 +21,20 @@ import edu.uci.ics.jung.graph.UndirectedSparseGraph;
 
 public class ReadRequest {
 
-  public static final int FIRST_INSTANCE = 0;
-  public static final int LAST_INSTANCE = 0;
+  public static final int FIRST_INSTANCE = 1;
+  public static final int LAST_INSTANCE = 1;
 
   public static final int NUMBER_OF_INSTANCES = 10;
     
 //  public static final int[] AGENTS = {5, 10, 15, 20};
   public static final int[] AGENTS = {10};
   
-  public static final String ALGORITHM = "RC-DIFF";
+//  public static final String ALGORITHM = "RC-DIFF";
 //  public static final String ALGORITHM = "RDIFF";
-  public static final String GRAPH = "scale-free-tree";
-//  public static final String GRAPH = "random-network";
+  public static final String ALGORITHM = "DEFAULT_PLAN";
+  
+//  public static final String GRAPH = "scale-free-tree";
+  public static final String GRAPH = "random-network";
   
   public static final SortedMap<String, Request> regionResult = new TreeMap<>();
   

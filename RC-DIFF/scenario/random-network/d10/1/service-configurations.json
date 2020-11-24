@@ -6,60 +6,29 @@
 	 "version": "1"
 	},
 	"hostname": "test-service",
-	"defaultNode": "nodeB",
+	"defaultNodes": {
+	  "nodeA": 20,
+	  "nodeB": 20,
+	  "nodeC": 20,
+	  "nodeD": 20,
+	  "nodeE": 20,
+	  "nodeF": 20,
+	  "nodeG": 20,
+	  "nodeH": 20,
+	  "nodeI": 20,
+	  "nodeJ": 20
+	},
 	"defaultNodeRegion": "B",
 	"initialInstances": "1",
 	"computeCapacity": {
-	  "TASK_CONTAINERS": "100",
-	"CPU": "1"
+	  "TASK_CONTAINERS": "1",
+	  "CPU": "1"
 	},
 	"networkCapacity": {
 	  "DATARATE_TX": "100",
 	  "DATARATE_RX": "100"
 	},
 	"priority": 1,
-	"trafficType": "RX_GREATER"
- },
- {
-	"service": {
-	 "group": "com.bbn",
-	 "artifact": "test-service2",
-	 "version": "1"
-	},
-	"hostname": "test-service",
-	"defaultNode": "nodeB",
-	"defaultNodeRegion": "B",
-	"initialInstances": "1",
-	"computeCapacity": {
-	  "TASK_CONTAINERS": "100",
-	"CPU": "1"
-	},
-	"networkCapacity": {
-	  "DATARATE_TX": "100",
-	  "DATARATE_RX": "100"
-	},
-	"priority": 2,
-	"trafficType": "RX_GREATER"
- },
- {
-	"service": {
-	 "group": "com.bbn",
-	 "artifact": "test-service3",
-	 "version": "1"
-	},
-	"hostname": "test-service",
-	"defaultNode": "nodeB",
-	"defaultNodeRegion": "B",
-	"initialInstances": "1",
-	"computeCapacity": {
-	  "TASK_CONTAINERS": "100",
-	"CPU": "1"
-	},
-	"networkCapacity": {
-	  "DATARATE_TX": "100",
-	  "DATARATE_RX": "100"
-	},
-	"priority": 3,
 	"trafficType": "RX_GREATER"
  }
 ]

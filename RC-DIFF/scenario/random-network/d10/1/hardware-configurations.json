@@ -14,7 +14,7 @@
 	  "CPU": 8,
 	  "MEMORY": 16000000000,
 	 "DISK": 10,
-	 "TASK_CONTAINERS": 8
+	 "TASK_CONTAINERS": 20
 	}
 }
 ]

@@ -3,50 +3,14 @@
 	"startTime": 30000,
 	"serverDuration": 60000,
 	"networkDuration": 60000,
-	"numClients": 400,
+	"numClients": 200,
 	"service": {
 	  "group": "com.bbn",
 	  "artifact": "test-service1",
 	  "version": "1"
 	},
 	"nodeLoad": {
-	  "TASK_CONTAINERS": 0.5
-	},
-	"networkLoad": {
-	  "DATARATE_TX": 0.000001,
-	  "DATARATE_RX": 0.000002
-	}
- },
- {
-	"startTime": 30000,
-	"serverDuration": 60000,
-	"networkDuration": 60000,
-	"numClients": 400,
-	"service": {
-	  "group": "com.bbn",
-	  "artifact": "test-service2",
-	  "version": "1"
-	},
-	"nodeLoad": {
-	  "TASK_CONTAINERS": 0.5
-	},
-	"networkLoad": {
-	  "DATARATE_TX": 0.000001,
-	  "DATARATE_RX": 0.000002
-	}
- },
- {
-	"startTime": 30000,
-	"serverDuration": 60000,
-	"networkDuration": 60000,
-	"numClients": 400,
-	"service": {
-	  "group": "com.bbn",
-	  "artifact": "test-service3",
-	  "version": "1"
-	},
-	"nodeLoad": {
-	  "TASK_CONTAINERS": 0.5
+	  "TASK_CONTAINERS": 0.25
 	},
 	"networkLoad": {
 	  "DATARATE_TX": 0.000001,
@@ -57,50 +21,14 @@
 	"startTime": 90000,
 	"serverDuration": 60000,
 	"networkDuration": 60000,
-	"numClients": 400,
+	"numClients": 200,
 	"service": {
 	  "group": "com.bbn",
 	  "artifact": "test-service1",
 	  "version": "1"
 	},
 	"nodeLoad": {
-	  "TASK_CONTAINERS": 0.5
-	},
-	"networkLoad": {
-	  "DATARATE_TX": 0.000001,
-	  "DATARATE_RX": 0.000002
-	}
- },
- {
-	"startTime": 90000,
-	"serverDuration": 60000,
-	"networkDuration": 60000,
-	"numClients": 400,
-	"service": {
-	  "group": "com.bbn",
-	  "artifact": "test-service2",
-	  "version": "1"
-	},
-	"nodeLoad": {
-	  "TASK_CONTAINERS": 0.5
-	},
-	"networkLoad": {
-	  "DATARATE_TX": 0.000001,
-	  "DATARATE_RX": 0.000002
-	}
- },
- {
-	"startTime": 90000,
-	"serverDuration": 60000,
-	"networkDuration": 60000,
-	"numClients": 400,
-	"service": {
-	  "group": "com.bbn",
-	  "artifact": "test-service3",
-	  "version": "1"
-	},
-	"nodeLoad": {
-	  "TASK_CONTAINERS": 0.5
+	  "TASK_CONTAINERS": 0.25
 	},
 	"networkLoad": {
 	  "DATARATE_TX": 0.000001,
@@ -111,50 +39,14 @@
 	"startTime": 150000,
 	"serverDuration": 60000,
 	"networkDuration": 60000,
-	"numClients": 400,
+	"numClients": 200,
 	"service": {
 	  "group": "com.bbn",
 	  "artifact": "test-service1",
 	  "version": "1"
 	},
 	"nodeLoad": {
-	  "TASK_CONTAINERS": 0.5
-	},
-	"networkLoad": {
-	  "DATARATE_TX": 0.000001,
-	  "DATARATE_RX": 0.000002
-	}
- },
- {
-	"startTime": 150000,
-	"serverDuration": 60000,
-	"networkDuration": 60000,
-	"numClients": 400,
-	"service": {
-	  "group": "com.bbn",
-	  "artifact": "test-service2",
-	  "version": "1"
-	},
-	"nodeLoad": {
-	  "TASK_CONTAINERS": 0.5
-	},
-	"networkLoad": {
-	  "DATARATE_TX": 0.000001,
-	  "DATARATE_RX": 0.000002
-	}
- },
- {
-	"startTime": 150000,
-	"serverDuration": 60000,
-	"networkDuration": 60000,
-	"numClients": 400,
-	"service": {
-	  "group": "com.bbn",
-	  "artifact": "test-service3",
-	  "version": "1"
-	},
-	"nodeLoad": {
-	  "TASK_CONTAINERS": 0.5
+	  "TASK_CONTAINERS": 0.25
 	},
 	"networkLoad": {
 	  "DATARATE_TX": 0.000001,
@@ -165,50 +57,14 @@
 	"startTime": 210000,
 	"serverDuration": 60000,
 	"networkDuration": 60000,
-	"numClients": 400,
+	"numClients": 200,
 	"service": {
 	  "group": "com.bbn",
 	  "artifact": "test-service1",
 	  "version": "1"
 	},
 	"nodeLoad": {
-	  "TASK_CONTAINERS": 0.5
-	},
-	"networkLoad": {
-	  "DATARATE_TX": 0.000001,
-	  "DATARATE_RX": 0.000002
-	}
- },
- {
-	"startTime": 210000,
-	"serverDuration": 60000,
-	"networkDuration": 60000,
-	"numClients": 400,
-	"service": {
-	  "group": "com.bbn",
-	  "artifact": "test-service2",
-	  "version": "1"
-	},
-	"nodeLoad": {
-	  "TASK_CONTAINERS": 0.5
-	},
-	"networkLoad": {
-	  "DATARATE_TX": 0.000001,
-	  "DATARATE_RX": 0.000002
-	}
- },
- {
-	"startTime": 210000,
-	"serverDuration": 60000,
-	"networkDuration": 60000,
-	"numClients": 400,
-	"service": {
-	  "group": "com.bbn",
-	  "artifact": "test-service3",
-	  "version": "1"
-	},
-	"nodeLoad": {
-	  "TASK_CONTAINERS": 0.5
+	  "TASK_CONTAINERS": 0.25
 	},
 	"networkLoad": {
 	  "DATARATE_TX": 0.000001,
@@ -219,50 +75,14 @@
 	"startTime": 270000,
 	"serverDuration": 60000,
 	"networkDuration": 60000,
-	"numClients": 400,
+	"numClients": 200,
 	"service": {
 	  "group": "com.bbn",
 	  "artifact": "test-service1",
 	  "version": "1"
 	},
 	"nodeLoad": {
-	  "TASK_CONTAINERS": 0.5
-	},
-	"networkLoad": {
-	  "DATARATE_TX": 0.000001,
-	  "DATARATE_RX": 0.000002
-	}
- },
- {
-	"startTime": 270000,
-	"serverDuration": 60000,
-	"networkDuration": 60000,
-	"numClients": 400,
-	"service": {
-	  "group": "com.bbn",
-	  "artifact": "test-service2",
-	  "version": "1"
-	},
-	"nodeLoad": {
-	  "TASK_CONTAINERS": 0.5
-	},
-	"networkLoad": {
-	  "DATARATE_TX": 0.000001,
-	  "DATARATE_RX": 0.000002
-	}
- },
- {
-	"startTime": 270000,
-	"serverDuration": 60000,
-	"networkDuration": 60000,
-	"numClients": 400,
-	"service": {
-	  "group": "com.bbn",
-	  "artifact": "test-service3",
-	  "version": "1"
-	},
-	"nodeLoad": {
-	  "TASK_CONTAINERS": 0.5
+	  "TASK_CONTAINERS": 0.25
 	},
 	"networkLoad": {
 	  "DATARATE_TX": 0.000001,
@@ -273,50 +93,14 @@
 	"startTime": 330000,
 	"serverDuration": 60000,
 	"networkDuration": 60000,
-	"numClients": 400,
+	"numClients": 200,
 	"service": {
 	  "group": "com.bbn",
 	  "artifact": "test-service1",
 	  "version": "1"
 	},
 	"nodeLoad": {
-	  "TASK_CONTAINERS": 0.5
-	},
-	"networkLoad": {
-	  "DATARATE_TX": 0.000001,
-	  "DATARATE_RX": 0.000002
-	}
- },
- {
-	"startTime": 330000,
-	"serverDuration": 60000,
-	"networkDuration": 60000,
-	"numClients": 400,
-	"service": {
-	  "group": "com.bbn",
-	  "artifact": "test-service2",
-	  "version": "1"
-	},
-	"nodeLoad": {
-	  "TASK_CONTAINERS": 0.5
-	},
-	"networkLoad": {
-	  "DATARATE_TX": 0.000001,
-	  "DATARATE_RX": 0.000002
-	}
- },
- {
-	"startTime": 330000,
-	"serverDuration": 60000,
-	"networkDuration": 60000,
-	"numClients": 400,
-	"service": {
-	  "group": "com.bbn",
-	  "artifact": "test-service3",
-	  "version": "1"
-	},
-	"nodeLoad": {
-	  "TASK_CONTAINERS": 0.5
+	  "TASK_CONTAINERS": 0.25
 	},
 	"networkLoad": {
 	  "DATARATE_TX": 0.000001,
@@ -327,50 +111,14 @@
 	"startTime": 390000,
 	"serverDuration": 60000,
 	"networkDuration": 60000,
-	"numClients": 400,
+	"numClients": 200,
 	"service": {
 	  "group": "com.bbn",
 	  "artifact": "test-service1",
 	  "version": "1"
 	},
 	"nodeLoad": {
-	  "TASK_CONTAINERS": 0.5
-	},
-	"networkLoad": {
-	  "DATARATE_TX": 0.000001,
-	  "DATARATE_RX": 0.000002
-	}
- },
- {
-	"startTime": 390000,
-	"serverDuration": 60000,
-	"networkDuration": 60000,
-	"numClients": 400,
-	"service": {
-	  "group": "com.bbn",
-	  "artifact": "test-service2",
-	  "version": "1"
-	},
-	"nodeLoad": {
-	  "TASK_CONTAINERS": 0.5
-	},
-	"networkLoad": {
-	  "DATARATE_TX": 0.000001,
-	  "DATARATE_RX": 0.000002
-	}
- },
- {
-	"startTime": 390000,
-	"serverDuration": 60000,
-	"networkDuration": 60000,
-	"numClients": 400,
-	"service": {
-	  "group": "com.bbn",
-	  "artifact": "test-service3",
-	  "version": "1"
-	},
-	"nodeLoad": {
-	  "TASK_CONTAINERS": 0.5
+	  "TASK_CONTAINERS": 0.25
 	},
 	"networkLoad": {
 	  "DATARATE_TX": 0.000001,
@@ -381,50 +129,14 @@
 	"startTime": 450000,
 	"serverDuration": 60000,
 	"networkDuration": 60000,
-	"numClients": 400,
+	"numClients": 200,
 	"service": {
 	  "group": "com.bbn",
 	  "artifact": "test-service1",
 	  "version": "1"
 	},
 	"nodeLoad": {
-	  "TASK_CONTAINERS": 0.5
-	},
-	"networkLoad": {
-	  "DATARATE_TX": 0.000001,
-	  "DATARATE_RX": 0.000002
-	}
- },
- {
-	"startTime": 450000,
-	"serverDuration": 60000,
-	"networkDuration": 60000,
-	"numClients": 400,
-	"service": {
-	  "group": "com.bbn",
-	  "artifact": "test-service2",
-	  "version": "1"
-	},
-	"nodeLoad": {
-	  "TASK_CONTAINERS": 0.5
-	},
-	"networkLoad": {
-	  "DATARATE_TX": 0.000001,
-	  "DATARATE_RX": 0.000002
-	}
- },
- {
-	"startTime": 450000,
-	"serverDuration": 60000,
-	"networkDuration": 60000,
-	"numClients": 400,
-	"service": {
-	  "group": "com.bbn",
-	  "artifact": "test-service3",
-	  "version": "1"
-	},
-	"nodeLoad": {
-	  "TASK_CONTAINERS": 0.5
+	  "TASK_CONTAINERS": 0.25
 	},
 	"networkLoad": {
 	  "DATARATE_TX": 0.000001,
@@ -435,50 +147,14 @@
 	"startTime": 510000,
 	"serverDuration": 60000,
 	"networkDuration": 60000,
-	"numClients": 400,
+	"numClients": 200,
 	"service": {
 	  "group": "com.bbn",
 	  "artifact": "test-service1",
 	  "version": "1"
 	},
 	"nodeLoad": {
-	  "TASK_CONTAINERS": 0.5
-	},
-	"networkLoad": {
-	  "DATARATE_TX": 0.000001,
-	  "DATARATE_RX": 0.000002
-	}
- },
- {
-	"startTime": 510000,
-	"serverDuration": 60000,
-	"networkDuration": 60000,
-	"numClients": 400,
-	"service": {
-	  "group": "com.bbn",
-	  "artifact": "test-service2",
-	  "version": "1"
-	},
-	"nodeLoad": {
-	  "TASK_CONTAINERS": 0.5
-	},
-	"networkLoad": {
-	  "DATARATE_TX": 0.000001,
-	  "DATARATE_RX": 0.000002
-	}
- },
- {
-	"startTime": 510000,
-	"serverDuration": 60000,
-	"networkDuration": 60000,
-	"numClients": 400,
-	"service": {
-	  "group": "com.bbn",
-	  "artifact": "test-service3",
-	  "version": "1"
-	},
-	"nodeLoad": {
-	  "TASK_CONTAINERS": 0.5
+	  "TASK_CONTAINERS": 0.25
 	},
 	"networkLoad": {
 	  "DATARATE_TX": 0.000001,
@@ -489,50 +165,14 @@
 	"startTime": 570000,
 	"serverDuration": 60000,
 	"networkDuration": 60000,
-	"numClients": 400,
+	"numClients": 200,
 	"service": {
 	  "group": "com.bbn",
 	  "artifact": "test-service1",
 	  "version": "1"
 	},
 	"nodeLoad": {
-	  "TASK_CONTAINERS": 0.5
-	},
-	"networkLoad": {
-	  "DATARATE_TX": 0.000001,
-	  "DATARATE_RX": 0.000002
-	}
- },
- {
-	"startTime": 570000,
-	"serverDuration": 60000,
-	"networkDuration": 60000,
-	"numClients": 400,
-	"service": {
-	  "group": "com.bbn",
-	  "artifact": "test-service2",
-	  "version": "1"
-	},
-	"nodeLoad": {
-	  "TASK_CONTAINERS": 0.5
-	},
-	"networkLoad": {
-	  "DATARATE_TX": 0.000001,
-	  "DATARATE_RX": 0.000002
-	}
- },
- {
-	"startTime": 570000,
-	"serverDuration": 60000,
-	"networkDuration": 60000,
-	"numClients": 400,
-	"service": {
-	  "group": "com.bbn",
-	  "artifact": "test-service3",
-	  "version": "1"
-	},
-	"nodeLoad": {
-	  "TASK_CONTAINERS": 0.5
+	  "TASK_CONTAINERS": 0.25
 	},
 	"networkLoad": {
 	  "DATARATE_TX": 0.000001,

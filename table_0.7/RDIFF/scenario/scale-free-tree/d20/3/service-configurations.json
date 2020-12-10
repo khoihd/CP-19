@@ -1,0 +1,65 @@
+[
+ {
+	"service": {
+	 "group": "com.bbn",
+	 "artifact": "test-service1",
+	 "version": "1"
+	},
+	"hostname": "test-service",
+	"defaultNode": "nodeG",
+	"defaultNodeRegion": "G",
+	"initialInstances": "1",
+	"computeCapacity": {
+	  "TASK_CONTAINERS": "1",
+	"CPU": "1"
+	},
+	"networkCapacity": {
+	  "DATARATE_TX": "100",
+	  "DATARATE_RX": "100"
+	},
+	"priority": 1,
+	"trafficType": "RX_GREATER"
+ },
+ {
+	"service": {
+	 "group": "com.bbn",
+	 "artifact": "test-service2",
+	 "version": "1"
+	},
+	"hostname": "test-service",
+	"defaultNode": "nodeG",
+	"defaultNodeRegion": "G",
+	"initialInstances": "1",
+	"computeCapacity": {
+	  "TASK_CONTAINERS": "1",
+	"CPU": "1"
+	},
+	"networkCapacity": {
+	  "DATARATE_TX": "100",
+	  "DATARATE_RX": "100"
+	},
+	"priority": 2,
+	"trafficType": "RX_GREATER"
+ },
+ {
+	"service": {
+	 "group": "com.bbn",
+	 "artifact": "test-service3",
+	 "version": "1"
+	},
+	"hostname": "test-service",
+	"defaultNode": "nodeG",
+	"defaultNodeRegion": "G",
+	"initialInstances": "1",
+	"computeCapacity": {
+	  "TASK_CONTAINERS": "1",
+	"CPU": "1"
+	},
+	"networkCapacity": {
+	  "DATARATE_TX": "100",
+	  "DATARATE_RX": "100"
+	},
+	"priority": 3,
+	"trafficType": "RX_GREATER"
+ }
+]

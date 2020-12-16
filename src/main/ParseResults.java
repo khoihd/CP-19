@@ -26,6 +26,7 @@ import edu.uci.ics.jung.algorithms.shortestpath.DijkstraShortestPath;
 import edu.uci.ics.jung.graph.Graph;
 import edu.uci.ics.jung.graph.UndirectedSparseGraph;
 
+
 public class ParseResults {
 
   public static final int FIRST_INSTANCE = 0;
@@ -414,8 +415,8 @@ public class ParseResults {
 //  }
 
   private static DijkstraShortestPath<String, String> getPathFinder(Path scenarioPath) {
-    Graph<String, String> graph = new UndirectedSparseGraph<>();
-
+	Graph<String, String> graph = new UndirectedSparseGraph<>();
+    
     File topology = null;
 
     // Read the topology.ns
